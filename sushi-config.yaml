@@ -187,4 +187,4 @@ FSHOnly: false
 #applyExtensionMetadataToRoot: false
 
 dependencies: 
-  hl7.fhir.be.core: 2.0.x
+  hl7.fhir.be.core: 2.0.0
