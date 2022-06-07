@@ -13,7 +13,7 @@ Usage: #example
 * patient = Reference(Patient/example)
 * onsetDateTime = "2004"
 * recordedDate = "2014-10-09T14:58:00+11:00"
-* recorder = Reference(Practitioner/example)
+* recorder = Reference(Practitioner/practitioner)
 * asserter = Reference(Patient/example)
 * lastOccurrence = "2012-06"
 * note.text = "Some extra information can be given here."
