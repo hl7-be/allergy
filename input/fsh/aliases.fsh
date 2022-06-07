@@ -8,8 +8,8 @@ Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
 Alias: $sct = http://snomed.info/sct
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
-/*
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+/*
 Alias: $cd-hcparty = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty
 Alias: $v3-DataOperation = http://terminology.hl7.org/CodeSystem/v3-DataOperation
 Alias: $provenance-participant-type = http://terminology.hl7.org/CodeSystem/provenance-participant-type
@@ -20,11 +20,13 @@ Alias: $cvx = http://hl7.org/fhir/sid/cvx
 Alias: $immunization-recommendation-status = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $my-own-custom-codes = http://my-own-custom-codes
+*/
 Alias: $cd-fed-country = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-fed-country
 Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $cd-civilstate = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-civilstate
 Alias: $v2-0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: $cd-contact-person = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-contact-person
+/*
 Alias: $consentscope = http://terminology.hl7.org/CodeSystem/consentscope
 Alias: $be-cs-patientwill-category = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/be-cs-patientwill-category
 Alias: $be-cs-patientwill-code = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/be-cs-patientwill-code
