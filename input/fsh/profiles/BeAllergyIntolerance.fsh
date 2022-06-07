@@ -2,6 +2,7 @@ Profile: BeAllergyIntolerance
 Parent: AllergyIntolerance
 Id: be-allergyintolerance
 Description: "Belgian federal profile for an allergy and/or an intolerance. Initially based on the functional description of the NIHDI."
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^version = "1.0.0"
 * ^status = #active
 * clinicalStatus MS
