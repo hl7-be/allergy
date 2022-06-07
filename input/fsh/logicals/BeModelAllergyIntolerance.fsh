@@ -1,5 +1,6 @@
 Logical: BeModelAllergyIntolerance
 Id: be-model-allergyintolerance
+Parent: Element
 Title: "Allergy Intolerance Logical Model"
 Description:    "Allergy / Intolerance information model"
 
