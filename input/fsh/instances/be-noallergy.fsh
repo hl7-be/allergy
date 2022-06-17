@@ -1,6 +1,7 @@
 Instance: be-noallergy
 InstanceOf: ValueSet
 Usage: #definition
+* extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * url = "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-noallergy"
 * version = "1.0.0"
 * name = "BeNoAllergy"
