@@ -25,4 +25,5 @@ Description:    "Allergy / Intolerance information model"
 //  * certitude 0..1 CodeableConcept "How certain we are that the cause of the reaction was the allergen indicated" "How certain we are that the cause of the reaction was the allergen indicated"
   * exposure 0..1 CodeableConcept "The exposure route to the substance" "The exposure route to the substance"
   * exposure from https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-exposureroute
+  * onset 0..1 dateTime "Manifestation date" "Manifestation date"
   * note 0..1 string "Additional text note about the allergic reaction" "Additional text note about the allergic reaction"
