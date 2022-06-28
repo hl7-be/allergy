@@ -4,6 +4,19 @@
 
 For exchange purposes the allergy record SHALL be provided with an UUID based identifier from the [BeNSAllergy](NamingSystem-be-ns-allergy.html) namespace.
 
+## Causes of the Allergy or Intolerance
+
+The allergy or intolerance causes are divided in two categories
+* medication related
+* not medication related
+
+The first group SHALL be indicated by using one of the following namespaces from the medication project:
+* CNK code [CNK code](https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cnk-codes.html)
+* ATC code [ATC code](http://whocc.no/atc)
+* CTI extended code [CTI extended code](https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cti-extended-code.html)
+
+The second group SHALL be indicated by using a value from the [BeAllergyIntoleranceCode](./ValueSet-be-allergyintolerancecode.html)
+
   
 
 ### Recorder 
