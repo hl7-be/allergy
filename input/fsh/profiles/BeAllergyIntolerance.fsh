@@ -42,3 +42,12 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * reaction.exposureRoute ^definition = "Identification of the route by which the subject was exposed to the substance.  If needed codes can be used outside the given valueset, SNOMED-CT is preferred."
 * reaction.note ^definition = "Additional text about the adverse reaction event not captured in other fields.\r\n\r\nA note on this level SHOULD be avoided when not absolutely necessary. Preferably use the .note one level higher."
 * reaction.note ^mustSupport = false
+* identifier MS
+* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier contains allergy 0..1
+* identifier[allergy] ^short = "Reference ID of the allergy"
+* identifier[allergy].system 1..
+* identifier[allergy].system = "https://www.ehealth.fgov.be/standards/fhir/allergy/NamingSystem/be-ns-allergy" (exactly)
+* identifier[allergy].value 1..
