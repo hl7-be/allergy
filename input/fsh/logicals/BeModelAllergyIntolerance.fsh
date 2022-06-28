@@ -16,8 +16,8 @@ Description:    "Allergy / Intolerance information model"
   * verificationStatus 1..1 CodeableConcept "The verification status of the allergy - if it is confirmed or suspected or refuted" "The verification status of the allergy - if it is confirmed or suspected or refuted"
   * verificationStatus from	http://hl7.org/fhir/ValueSet/allergyintolerance-verification
 
-* recordedDate 0..1 dateTime "When the allergy was reported" "When the allergy was reported"
-* recorder 0..1 Reference "Who recorded the allergy" "Who recorded the allergy"
+* recordedDate 1..1 dateTime "When the allergy was reported" "When the allergy was reported"
+* recorder 1..1 Reference "Who recorded the allergy" "Who recorded the allergy"
 * asserter 0..1 Reference "Who asserted the allergy" " who asserted or provided the allergy information e.g. the patient, a relative, a care giver..."
 * note 0..1 string "Additional text note about the allergy or intolerance" "Additional text note about the allergy or intolerance"
 * reactions 0..* BackboneElement "known past reactions to the allergen" "known past reactions to the allergen"
