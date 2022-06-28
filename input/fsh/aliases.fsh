@@ -9,6 +9,7 @@ Alias: $sct = http://snomed.info/sct
 Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $jurisdiction = urn:iso:std:iso:3166
 /*
 Alias: $cd-hcparty = https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty
 Alias: $v3-DataOperation = http://terminology.hl7.org/CodeSystem/v3-DataOperation
