@@ -4,7 +4,7 @@
 
 For exchange purposes the allergy record SHALL be provided with an UUID based identifier from the [BeNSAllergy](NamingSystem-be-ns-allergy.html) namespace.
 
-## Causes of the Allergy or Intolerance
+### Causes of the Allergy or Intolerance
 
 The allergy or intolerance causes are divided in two categories
 * medication related
