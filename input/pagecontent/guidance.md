@@ -25,6 +25,8 @@ The second group SHALL be indicated by using a value from the [BeAllergyIntolera
 
 The recorder SHALL always be identified by at least a SSIN (SSIN bis) number, except for secondary purposes. Additionally, in a contained resource, you can provide extra information, such as name or NIHDI number. 
 
+If you want to use an Organization as a recorder, you can do that using a PractitionerRole, and add the Organization to PractitionerRole.organization. However, you SHALL add a Practitioner to the PractitionerRole. This will be the person that ultimately bears the medical responsibility for this record on behalf of the Organization.
+
 ### Dates
 
 #### AllergyIntolerance.onset
