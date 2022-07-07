@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:fhir="http://hl7.org/fhir">
+   <canonical>https://www.ehealth.fgov.be/standards/fhir/allergy</canonical>
+   <id>hl7.fhir.be.allergy</id>
+   <url>https://www.ehealth.fgov.be/standards/fhir/allergy/ImplementationGuide/hl7.fhir.be.allergy</url>
+   <version>0.1.0-test</version>
+   <name>Allergy (Patient Dossier)</name>
+   <title>Allergy (Patient Dossier)</title>
+   <status>draft</status>
+   <experimental>false</experimental>
+   <publisher>HL7 Patient Dossier</publisher>
+   <contact>
+      <telecom>
+         <system>url</system>
+         <value>https://www.ehealth.fgov.be/standards/fhir</value>
+      </telecom>
+   </contact>
+   <description>Allergy</description>
+   <jurisdiction>http://unstats.un.org/unsd/methods/m49/m49.htm#056</jurisdiction>
+   <packageId>hl7.fhir.be.allergy</packageId>
+   <license>CC0-1.0</license>
+   <fhirVersion>4.0.1</fhirVersion>
+   <parameters>
+      <copyrightyear>2019+</copyrightyear>
+      <releaselabel>CI Build</releaselabel>
+      <find-other-resources>true</find-other-resources>
+      <path-resource>input\history</path-resource>
+      <path-resource>input\scenarios</path-resource>
+      <path-binary>input\cql</path-binary>
+      <path-liquid>templates\liquid</path-liquid>
+   </parameters>
+   <pages>
+      <toc.xml>
+         <title>Table of Contents</title>
+         <generation>html</generation>
+         <index.xml>
+            <title>MyIG Home Page</title>
+            <generation>html</generation>
+         </index.xml>
+         <downloads.xml>
+            <title>Useful Downloads</title>
+            <generation>html</generation>
+         </downloads.xml>
+         <changes.xml>
+            <title>IG Change History</title>
+            <generation>html</generation>
+         </changes.xml>
+      </toc.xml>
+   </pages>
+</root>
