@@ -20,9 +20,9 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * patient only Reference(BePatient)
 * patient MS
 * patient ^definition = "The patient who has the allergy or intolerance.\r\n\r\nA provider SHALL include it in the istance and a consumer SHALL record this in its consuming system."
-* recordedDate 1.. MS
+* recordedDate 1..1 MS
 * recordedDate ^definition = "The recordedDate represents when this particular AllergyIntolerance record was created in the system, which is often a system-generated date.\r\n\r\nA provider SHALL include it in the istance and a consumer SHALL record this in its consuming system."
-* recorder 1.. MS
+* recorder 1..1 MS
 * recorder only Reference(Practitioner or PractitionerRole or Patient or RelatedPerson or BePatient or BePractitioner or BePractitionerRole)
 * recorder ^definition = "Individual who recorded the record and takes responsibility for its content.\r\n\r\nA provider SHALL include it in the istance and a consumer SHALL record this in its consuming system."
 * recorder ^comment = "References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.\r\n\r\nSpecial remarks for KMEHR users:\r\nThis is the 'author' concept in a KMEHR message as the FHIR recorder is the party taking responsibility."
