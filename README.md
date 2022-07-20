@@ -1,7 +1,8 @@
 Empty IG
 ---
 This is an empty IG
-<br> </br>
+
+
 ###
 ### Publication
 This ImplementationGuide is published in the following locations:
