@@ -36,3 +36,15 @@ The .onset field is used when there are no reactions known, or when the date of 
 #### AllergyIntolerance.reactions.onset
 
 If a reaction (and manifestation) is known, and it can be dated sufficiently accurately, then a (partial) date on the reaction level is used.
+
+### Role of the Registrar
+
+The verification status of the allergy or intolerance depends on the role of the person that registers the allergy or intolerance, and the information that is available at the time of the registration.
+
+|Description|Role|VerificationStatus|
+|-----------|----|------------------|
+|Patient self-service|Patient|Unconfirmed|
+|Doctor in posession of a positive test result|Doctor|Confirmed|
+|Doctor in posession of a negative test result|Doctor|Refuted|
+|Patient tells a caregiver (KB/AR 78) that he/she suffers from an allergy |Caregiver (KB/AR 78)|Unconfirmed|
+
