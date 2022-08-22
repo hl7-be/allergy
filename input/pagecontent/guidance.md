@@ -7,13 +7,15 @@ For exchange purposes the allergy record SHALL be provided with an UUID based id
 ### Causes of the Allergy or Intolerance
 
 The allergy or intolerance causes are divided in two categories
-* medication related
+* medication related (see [www.samportal.be](https://www.samportal.be))
 * not medication related
 
 The first group SHALL be indicated by using one of the following namespaces from the medication project:
 * CNK code [https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cnk-codes](https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cnk-codes.html)
 * ATC code [http://whocc.no/atc](http://whocc.no/atc)
 * CTI extended code [https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cti-extended-code](https://www.ehealth.fgov.be/standards/fhir/medication/NamingSystem-be-ns-cti-extended-code.html)
+
+
 
 The second group SHALL be indicated by using a value from the [BeAllergyIntoleranceCode](./ValueSet-be-allergyintolerancecode.html)
 
