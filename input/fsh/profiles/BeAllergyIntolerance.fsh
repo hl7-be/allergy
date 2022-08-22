@@ -36,7 +36,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * reaction MS
 * reaction ^definition = "Details about each adverse reaction event linked to exposure to the identified substance.\r\n\r\nWhen available, a provider SHOULD include it in the istance. When given, a consumer SHALL record this in its consuming system."
 * reaction.substance ^mustSupport = false
-* reaction.manifestation MS
+* reaction.manifestation 1..1 MS
 * reaction.manifestation from $be-riskmanifestation (extensible)
 * reaction.manifestation ^definition = "Clinical symptoms and/or signs that are observed or associated with the adverse reaction event.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system. If needed codes can be used outside the given valueset, SNOMED-CT is preferred."
 * reaction.onset MS
@@ -53,7 +53,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * identifier[allergy].system 1..
 * identifier[allergy].system = "https://www.ehealth.fgov.be/standards/fhir/allergy/NamingSystem/be-ns-allergy" (exactly)
 * identifier[allergy].value 1..
-* obeys be-inv-asserter-person-rel-type and be-inv-type-verification-status
+* obeys be-inv-asserter-person-rel-type
 
 Invariant: be-inv-asserter-person-rel-type
 Description: "Checks that the person relationship type of the RelatedPerson in asserter is from BeVSPatientRelationshipType"
