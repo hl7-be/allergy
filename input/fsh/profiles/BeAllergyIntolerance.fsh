@@ -6,7 +6,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * ^version = "1.0.0"
 * ^status = #active
 * clinicalStatus MS
-* clinicalStatus ^definition = "The clinical status of the allergy or intolerance.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system."
+* clinicalStatus ^definition = "The clinical status of the allergy or intolerance.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system.\r\n\r\nUse 'resolved' only in case of pediatric allergies, in case of complete recovery, use 'inactive' in case of longlasting tolerance after a desensitisation treatment"
 * verificationStatus MS
 * verificationStatus ^definition = "Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance (including pharmaceutical product).\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system."
 * type MS
