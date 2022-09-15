@@ -164,7 +164,8 @@ menu:
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
   Downloads: downloads.html
-  History: changes.html
+  Changes: changes.html
+  History: https://www.ehealth.fgov.be/standards/fhir/allergy/history.html
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -186,7 +187,7 @@ FSHOnly: false
 #applyExtensionMetadataToRoot: false
 
 dependencies: 
-  hl7.fhir.be.core: dev #2.0.1
+  hl7.fhir.be.core: 2.0.1
 
 parameters:
   shownav: 'true'
