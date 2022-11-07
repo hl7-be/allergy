@@ -4,8 +4,7 @@ Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
 * clinicalStatus = $allergyintolerance-clinical#active "Active"
-* verificationStatus = $allergyintolerance-verification#confirmed
-* type = #allergy
+* verificationStatus = $allergyintolerance-verification#unconfirmed
 * category = #food
 * criticality = #high
 * code = $sct#762952008 "Peanut (substance)"
