@@ -5,6 +5,8 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^version = "1.0.0"
 * ^status = #active
+* extension contains 
+    BeExtAllergyType named type 0..1 MS
 * clinicalStatus MS
 * clinicalStatus ^definition = "The clinical status of the allergy or intolerance.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system.\r\n\r\nUse 'resolved' only in case of pediatric allergies, in case of complete recovery, use 'inactive' in case of longlasting tolerance after a desensitisation treatment"
 * verificationStatus MS

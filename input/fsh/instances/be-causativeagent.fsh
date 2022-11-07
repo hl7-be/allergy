@@ -1,9 +1,11 @@
 ValueSet: BeCausativeAgent
 Id: be-causativeagent
+Title: "BeCausativeAgent"
 Description: "Causative Agents for Allergy (non medication)"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-causativeagent"
 * ^version = "1.0.0"
+* ^experimental = false
 //* ^url = "http://snomed.info/sct/11000172109/version/20220315?fhir_vs=refset/751000172100"
 //* ^version = "MAIN/SNOMEDCT-BE/2022-03-15"
 * ^status = #active

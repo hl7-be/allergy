@@ -5,6 +5,8 @@ Usage: #definition
 * url = "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-noallergy"
 * version = "1.0.0"
 * name = "BeNoAllergy"
+* title = "BeNoAllergy"
+* experimental = false
 * status = #active
 * publisher = "eHealth Platform"
 * contact.name = "eHealth Platform"

@@ -19,7 +19,9 @@ The first group SHALL be indicated by using one of the following namespaces from
 
 The second group SHALL be indicated by using a value from the [BeAllergyIntoleranceCode](./ValueSet-be-allergyintolerancecode.html)
 
-  
+### Allergy and intolerance types
+
+The type of allergy or intolerance in indicated in the field AllergyIntolerance.type. However, there are only two values possible, allergy or intolerance. Current state of medical knowledge also recognizes non allergic hypersensitivity. We indicate this in the extension [BeExtAllergyType](./StructureDefinition-be-ext-allergy-type.html). The semantic contents of this extension should be equal to the value in AllergyIntolerance.type, whenever this is possible. If the value in the extension is non allergic hypersensitivity, there should be no value in AllergyIntolerance.type.   
 
 ### Recorder 
 
