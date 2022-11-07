@@ -1,6 +1,7 @@
 Instance: allergyintolerance3
 InstanceOf: BeAllergyIntolerance
 Usage: #example
+* extension[type].valueCodeableConcept = $sct#609328004
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
 * clinicalStatus = $allergyintolerance-clinical#active "Active"
