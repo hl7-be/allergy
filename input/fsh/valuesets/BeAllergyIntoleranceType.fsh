@@ -8,3 +8,4 @@ Description: "Codes as communicated by NIHDI and the FOD Terminology Center diff
 * ^compose.include.concept[+].code = #609328004
 * ^compose.include.concept[+].code = #609396006
 * ^compose.include.concept[+].code = #782197009
+* ^compose.include.concept[+].code = #609433001
