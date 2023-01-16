@@ -59,7 +59,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 
 Invariant: be-inv-asserter-person-rel-type
 Description: "Checks that the person relationship type of the RelatedPerson in asserter is from BeVSPatientRelationshipType"
-Expression: "asserter.resolve() is RelatedPerson implies asserter.resolve().relationship.memberOf('https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-patient-relationship-type')"
+Expression: "asserter.empty() or (asserter.resolve() is RelatedPerson implies asserter.resolve().relationship.memberOf('https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-patient-relationship-type'))"
 Severity: #error
 
 Invariant: be-inv-type-verification-status
