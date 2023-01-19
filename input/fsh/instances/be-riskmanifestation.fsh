@@ -6,6 +6,8 @@ Usage: #definition
 * extension.valueInteger = 1
 * version = "1.0.0"
 * name = "BeRiskManifestation"
+* title = "BeRiskManifestation"
+* experimental = false
 * status = #active
 * publisher = "eHealth Platform"
 * contact.name = "eHealth Platform"

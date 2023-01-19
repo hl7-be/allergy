@@ -13,7 +13,7 @@ url: https://www.ehealth.fgov.be/standards/fhir/allergy
 name: Allergy (Patient Dossier)
 title: "Allergy (Patient Dossier)"
 description: Allergy (Patient Dossier)
-status: active
+status: draft
 license: CC0-1.0
 date: 2022-06-29
 version: 1.0.1

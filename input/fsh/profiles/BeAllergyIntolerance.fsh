@@ -5,6 +5,8 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^version = "1.0.0"
 * ^status = #active
+* extension contains 
+    BeExtAllergyType named type 0..1 MS
 * clinicalStatus MS
 * clinicalStatus ^definition = "The clinical status of the allergy or intolerance.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system.\r\n\r\nUse 'resolved' only in case of pediatric allergies, in case of complete recovery, use 'inactive' in case of longlasting tolerance after a desensitisation treatment"
 * verificationStatus MS
@@ -57,7 +59,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 
 Invariant: be-inv-asserter-person-rel-type
 Description: "Checks that the person relationship type of the RelatedPerson in asserter is from BeVSPatientRelationshipType"
-Expression: "asserter.resolve() is RelatedPerson implies asserter.resolve().relationship.memberOf('https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-patient-relationship-type')"
+Expression: "asserter.empty() or (asserter.resolve() is RelatedPerson implies asserter.resolve().relationship.memberOf('https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-patient-relationship-type'))"
 Severity: #error
 
 Invariant: be-inv-type-verification-status

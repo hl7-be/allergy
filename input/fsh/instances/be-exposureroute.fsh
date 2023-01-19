@@ -5,6 +5,8 @@ Usage: #definition
 * url = "https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-exposureroute"
 * version = "1.0.0"
 * name = "BeExposureRoute"
+* title = "BeExposureRoute"
+* experimental = false
 * status = #active
 * publisher = "eHealth Platform"
 * contact.name = "eHealth Platform"
