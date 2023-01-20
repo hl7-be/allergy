@@ -162,7 +162,7 @@ menu:
   Artifacts:
     Data Models: artifacts.html#structures-logical-models
     Profiles: artifacts.html#structures-resource-profiles
-    Extensions: structures-extension-definitions
+    Extensions: artifacts.html#structures-extension-definitions
     Value Sets: artifacts.html#terminology-value-sets
   Downloads: downloads.html
   Changes: changes.html
