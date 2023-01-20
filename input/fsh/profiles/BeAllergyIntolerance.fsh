@@ -11,8 +11,8 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * clinicalStatus ^definition = "The clinical status of the allergy or intolerance.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system.\r\n\r\nUse 'resolved' only in case of pediatric allergies, in case of complete recovery, use 'inactive' in case of longlasting tolerance after a desensitisation treatment"
 * verificationStatus MS
 * verificationStatus ^definition = "Assertion about certainty associated with the propensity, or potential risk, of a reaction to the identified substance (including pharmaceutical product).\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system."
-* type MS
-* type ^definition = "Identification of the underlying physiological mechanism for the reaction risk.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system."
+* type 0..0
+//* type ^definition = "Identification of the underlying physiological mechanism for the reaction risk.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system."
 * category MS
 * category ^definition = "Category of the identified substance.\r\n\r\nWhen available, a provider SHOULD include it in the istance. When given, a consumer SHALL record this in its consuming system."
 * code 1.. MS
@@ -28,7 +28,7 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * recordedDate ^definition = "The recordedDate represents when this particular AllergyIntolerance record was created in the system, which is often a system-generated date.\r\n\r\nA provider SHALL include it in the istance and a consumer SHALL record this in its consuming system."
 * recorder 1..1 MS
 * recorder only Reference(BePractitioner or BePractitionerRole or BePatient)
-* recorder ^definition = "Individual who takes responsibility for the content of the record. BePatient is added to allow a patient to record his/her own allergies. Organisations can be  a recorder, using a PractitionerRole, but the you SHALL add a BePractioner who is responsable for the organisation.\r\n\r\nA provider SHALL include it in the instance and a consumer SHALL record this in its consuming system."
+* recorder ^definition = "Individual who takes responsibility for the content of the record. BePatient is added to allow a patient to record his/her own allergies. Organisations can be a recorder, using a PractitionerRole, but the you SHALL add a BePractioner who is responsable for the organisation.\r\n\r\nA provider SHALL include it in the instance and a consumer SHALL record this in its consuming system."
 * recorder ^comment = "References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.\r\n\r\nSpecial remarks for KMEHR users:\r\nThis is the 'author' concept in a KMEHR message as the FHIR recorder is the party taking responsibility."
 * asserter MS
 * asserter ^definition = "The source of the information about the allergy that is recorded.\r\n\r\nWhen available, a provider SHOULD include it in the instance. When given, a consumer SHALL record this in its consuming system."
