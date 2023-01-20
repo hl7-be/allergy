@@ -21,11 +21,12 @@ The second group SHALL be indicated by using a value from the [BeAllergyIntolera
 
 ### Allergy and intolerance types
 
-The type of allergy or intolerance in indicated in the field AllergyIntolerance.type. However, there are only two values possible, allergy or intolerance. Current state of medical knowledge also recognizes non allergic hypersensitivity. We indicate this in the extension [BeExtAllergyType](./StructureDefinition-be-ext-allergy-type.html). The semantic contents of this extension should be equal to the value in AllergyIntolerance.type, whenever this is possible. If the value in the extension is non allergic hypersensitivity, there should be no value in AllergyIntolerance.type.   
+
+The type of allergy or intolerance is expressed in the extension [BeExtAllergyType](./StructureDefinition-be-ext-allergy-type.html) and not in AllergyIntolerance.type. The AllergyIntolerance.type only allows two values, allergy or intolerance. Currently we recognize non allergic hypersensitivity. To avoid the use of duplicate or misaligned information, there shall be no value in AllergyIntolerance.type, so it is forbidden.  
+The Value Set for Allergy / Intolerance type is extensible, like in other value sets where SNOMED CT is used. This means that if an allergy type can be expressed using the provided SNOMED CT values, then these codes shall be used. Other codes may be used but only if the allergy type is not matching those provided.
+
 
 ### Recorder 
-
-  
 
 The recorder SHALL always be identified by at least a SSIN (SSIN bis) number. Additionally, in a contained resource, you can provide extra information, such as name or NIHDI number. BePatient is added to allow a patient to record his/her own allergies. For GDPR reasons, when this information is used for clinical studies, or other secondary purposes, the SSIN will not be made available.
 
