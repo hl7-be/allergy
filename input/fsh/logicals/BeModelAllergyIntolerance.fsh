@@ -9,7 +9,7 @@ Description:    "Allergy / Intolerance information model"
 * code from https://www.ehealth.fgov.be/standards/fhir/allergy/ValueSet/be-allergyintolerancecode (extensible)
 * category 0..* code "The category of the risk (food, medication, environment, biological,...). This information will not be encoded by the Recorder but can automatically be added using the SNOMED-CT code from causative agent" "The category of the risk (food, medication, environment, biological,...). This information will not be encoded by the Recorder but can automatically be added using the SNOMED-CT code from causative agent"
 * type 0..1 code "The Type - whether it is an allergy or intolerance" "the type of risk (allergy, intolerance...). When it is not possible to distinguish between a real allergy, a non-allergic hypersensitivity or an intolerance you can use the 'Intolerance' type, but code the VerificationStatus as 'Unconfirmed'"
-* type from http://hl7.org/fhir/ValueSet/allergy-intolerance-type
+* type from BeVSAllergyIntoleranceType
 * status 0..1 BackboneElement "The status of the allergy" "The status of the allergy"
   * clinicalStatus 1..1 CodeableConcept "The status of the allergy - if it is active or resolved" "The status of the allergy - if it is active or resolved"
   * clinicalStatus from http://hl7.org/fhir/ValueSet/allergyintolerance-clinical
