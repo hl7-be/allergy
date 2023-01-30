@@ -1,7 +1,7 @@
 ValueSet: BeAllergyIntoleranceCode
 Id: be-allergyintolerancecode
 Title: "BeAllergyIntoleranceCode"
-Description: "Codes as communicated by NIHDI and the FOD Terminology Center differentiating types of allergy intolerance codes. This valueset supports the Belgian federal FHIR profiling effort."
+Description: "Allergy / intolerance codes as communicated by NIHDI and the FOD Terminology Center. This valueset supports the Belgian federal FHIR profiling effort."
 * ^version = "1.0.0"
 * ^status = #active
 * ^publisher = "eHealth Platform"
