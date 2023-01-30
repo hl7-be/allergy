@@ -6,7 +6,7 @@ Usage: #example
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
 * clinicalStatus = $allergyintolerance-clinical#active "Active"
 * verificationStatus = $allergyintolerance-verification#confirmed
-* type = #allergy
+//* type = #allergy
 * category = #environment
 * criticality = #high
 * code = $sct#256259004 "Pollen"
