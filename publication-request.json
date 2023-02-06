@@ -12,5 +12,6 @@
     "category": "National Base",
     "introduction": "eHealth FHIR Allergy Profiles for Belgium",
 	"date": "2023-02-10",
-  "mode": "milestone"    
+  "mode": "milestone",
+  "milestone":true    
   }
