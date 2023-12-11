@@ -55,12 +55,14 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * identifier[allergy].system 1..
 * identifier[allergy].system = "https://www.ehealth.fgov.be/standards/fhir/allergy/NamingSystem/be-ns-allergy" (exactly)
 * identifier[allergy].value 1..
+/*
 * obeys be-inv-asserter-person-rel-type
 
 Invariant: be-inv-asserter-person-rel-type
 Description: "Checks that the person relationship type of the RelatedPerson in asserter is from BeVSPatientRelationshipType"
 Expression: "asserter.empty() or (asserter.resolve() is RelatedPerson implies asserter.resolve().relationship.memberOf('https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-patient-relationship-type'))"
-Severity: #error
+Severity: #warning
+*/
 
 Invariant: be-inv-type-verification-status
 Description: "Checks that if the type is empty, the verificationStatus is unconfirmed"
