@@ -8,7 +8,7 @@
     "desc": "eHealth FHIR Allergy Profiles for Belgium",
     "desccmd": "eHealth FHIR Allergy Profiles for Belgium",
     "title": "eHealth FHIR Allergy Profiles for Belgium",
-    "ci-build" : "https://build.fhir.org/ig/hl7-be/allergy",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/allergy",
     "category": "National Base",
     "introduction": "eHealth FHIR Allergy Profiles for Belgium",
 	"date": "2023-12-22",
