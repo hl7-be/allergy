@@ -1,13 +1,12 @@
 Empty IG
 ---
-This is an empty IG
-
+Allergy Intolerance IG
 
 ###
 ### Publication
 This ImplementationGuide is published in the following locations:
 
-Continuous Build: __http://build.fhir.org/ig/hl7-be/allergy/branches/main/index.html__  
+Continuous Build: __http://build.fhir.org/ig/hl7-be/allergy/branches/master/index.html__  
 Canonical / permanent URL: __https://www.ehealth.fgov.be/standards/fhir/allergy__
 <br> </br>
 
