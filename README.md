@@ -17,5 +17,6 @@ Issues and change requests are managed here:
 Issues:  __https://github.com/hl7-be/allergy/issues__  
 Kanban board:  __https://github.com/hl7-be/allergy/projects/1__  
 
+
 ---
 
