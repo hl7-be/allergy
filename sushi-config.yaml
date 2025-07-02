@@ -13,10 +13,10 @@ url: https://www.ehealth.fgov.be/standards/fhir/allergy
 name: Allergy (Patient Dossier)
 title: "Allergy (Patient Dossier)"
 description: Allergy (Patient Dossier)
-status: draft
+status: active
 license: CC0-1.0
-date: 2023-02-10
-version: 1.1.0
+date: 2023-12-22
+version: 1.2.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -39,14 +39,14 @@ releaseLabel: STU1
 publisher:
   name: eHealth Platform 
   url: https://www.ehealth.fgov.be/standards/fhir
-  email: message-structure@ehealth.fgov.be
+  email: support@be-ehealth-standards.atlassian.net
 
 # ContactDetail is required by the template.
 contact:
   - name: Message Structure eHealth
     telecom:
       - system: email
-        value: message-structure@ehealth.fgov.be
+        value: support@be-ehealth-standards.atlassian.net
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand

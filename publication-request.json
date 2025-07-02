@@ -1,16 +1,17 @@
 {
     "package-id": "hl7.fhir.be.allergy",
-    "version": "1.1.0",
-    "path": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.1.0",
+    "version": "1.2.0",
+    "path": "https://www.ehealth.fgov.be/standards/fhir/allergy/1.2.0",
     "milestone" : true,
     "status": "release",
     "sequence": "Trial Use",
     "desc": "eHealth FHIR Allergy Profiles for Belgium",
     "desccmd": "eHealth FHIR Allergy Profiles for Belgium",
     "title": "eHealth FHIR Allergy Profiles for Belgium",
-    "ci-build" : "https://build.fhir.org/ig/hl7-be/allergy",
+    "ci-build" : "http://build.fhir.org/ig/hl7-be/allergy",
     "category": "National Base",
     "introduction": "eHealth FHIR Allergy Profiles for Belgium",
-	"date": "2023-02-10",
-  "mode": "milestone"   
+	"date": "2023-12-22",
+  "mode": "milestone",
+  "first": false   
   }
