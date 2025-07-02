@@ -8,7 +8,7 @@ Usage: #example
 * verificationStatus = $allergyintolerance-verification#unconfirmed
 * category = #food
 * criticality = #high
-* code = $sct#762952008 "Peanut (substance)"
+* code = $sct#762952008 "Peanut"
 * code.text = "Allergic to peanut"
 * patient = Reference(Patient/example)
 * onsetDateTime = "2004"
