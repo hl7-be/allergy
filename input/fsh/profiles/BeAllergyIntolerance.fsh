@@ -42,8 +42,8 @@ Description: "Belgian federal profile for an allergy and/or an intolerance. Init
 * reaction.manifestation from $be-riskmanifestation (extensible)
 * reaction.manifestation ^definition = "Clinical symptoms and/or signs that are observed or associated with the adverse reaction event.\r\n\r\nWhen available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system. If needed codes can be used outside the given valueset, SNOMED-CT is preferred."
 * reaction.onset MS
-* reaction.exposureRoute from $be-exposureroute (extensible)
-* reaction.exposureRoute ^definition = "Identification of the route by which the subject was exposed to the substance.  If needed codes can be used outside the given valueset, SNOMED-CT is preferred."
+* reaction.exposureRoute from $be-exposureroute (example)
+* reaction.exposureRoute ^definition = "The ValueSet here is given as an informative example only. For exposure routes, SNOMED-CT is preferred."
 * reaction.note ^definition = "Additional text about the adverse reaction event not captured in other fields.\r\n\r\nA note on this level SHOULD be avoided when not absolutely necessary. Preferably use the .note one level higher."
 * reaction.note ^mustSupport = false
 * identifier MS
