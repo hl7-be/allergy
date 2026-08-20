@@ -1,5 +1,6 @@
 Instance: allergyintolerance1
 InstanceOf: BeAllergyIntolerance
+Description: "Example of an active, unconfirmed peanut allergy with high criticality and a history of severe anaphylactic reaction."
 Usage: #example
 * extension[type].valueCodeableConcept = $sct#609328004
 * meta.versionId = "1"

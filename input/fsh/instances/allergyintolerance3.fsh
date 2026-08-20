@@ -1,5 +1,6 @@
 Instance: allergyintolerance3
 InstanceOf: BeAllergyIntolerance
+Description: "Example of an active, confirmed pollen allergy with high criticality, multiple pollen reactions, and a related person as the asserter."
 Usage: #example
 * extension[type].valueCodeableConcept = $sct#609328004
 * meta.versionId = "1"
