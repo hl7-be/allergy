@@ -198,3 +198,4 @@ parameters:
   apply-version: 'true'
   path-expansion-params: Parameters-terminology-expansion.json  
   excludettl: true
+  pin-canonicals: pin-multiples
