@@ -9,14 +9,14 @@
 
 id: hl7.fhir.be.allergy
 canonical: https://www.ehealth.fgov.be/standards/fhir/allergy
-url: https://www.ehealth.fgov.be/standards/fhir/allergy
+#url: https://www.ehealth.fgov.be/standards/fhir/allergy
 name: Allergy (Patient Dossier)
 title: "Allergy (Patient Dossier)"
 description: Allergy (Patient Dossier)
 status: active
 license: CC0-1.0
-date: 2023-12-22
-version: 1.2.0
+date: 2026-08-21
+version: 1.2.1
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -129,7 +129,7 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
-  index.xml:
+  index.md:
     title: Home
   guidance.md:
   changes.xml:
@@ -188,7 +188,7 @@ FSHOnly: false
 #applyExtensionMetadataToRoot: false
 
 dependencies: 
-  hl7.fhir.be.core: 2.0.1
+  hl7.fhir.be.core: 2.2.0
 
 parameters:
   shownav: 'true'
@@ -197,3 +197,5 @@ parameters:
   apply-publisher: 'true'
   apply-version: 'true'
   path-expansion-params: Parameters-terminology-expansion.json  
+  excludettl: true
+  pin-canonicals: pin-multiples

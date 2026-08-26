@@ -1,5 +1,6 @@
 Instance: practitioner
 InstanceOf: BePractitioner
+Description: "Example of a practitioner"
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
