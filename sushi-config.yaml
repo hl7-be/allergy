@@ -164,6 +164,7 @@ menu:
     Profiles: artifacts.html#structures-resource-profiles
     Extensions: artifacts.html#structures-extension-definitions
     Value Sets: artifacts.html#terminology-value-sets
+    Model Mappings: artifacts.html#terminology-concept-maps
   Downloads: downloads.html
   Changes: changes.html
   History: https://www.ehealth.fgov.be/standards/fhir/allergy/history.html
@@ -199,3 +200,4 @@ parameters:
   path-expansion-params: Parameters-terminology-expansion.json  
   excludettl: true
   pin-canonicals: pin-multiples
+  produce-jekyll-data: true
